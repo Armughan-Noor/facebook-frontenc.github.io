@@ -1,0 +1,161 @@
+body {
+  background-color: #f0f2f5;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.hamburger {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.home-page {
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  width: 432px;
+  
+}
+
+.home-page .Grabber {
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  margin: 0px;
+  text-align: center;
+  color: #7a6787;
+  padding: 0px 0px 15px 0px;
+}
+
+.home-page h1 {
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #7a6787;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.name {
+  padding: 5px;
+  margin-top: 20px;
+}
+.name input {
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(194, 192, 192);
+  padding-left: 15px;
+  width: 44.5%;
+}
+input::placeholder {
+  color: rgb(194, 192, 192);
+}
+input:focus {
+  outline: none;
+}
+.email {
+  padding: 5px;
+}
+.email input {
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(194, 192, 192);
+  padding-left: 15px;
+  display: block;
+  width: 95%;
+}
+.password {
+  padding: 5px;
+}
+.password input {
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(194, 192, 192);
+  padding-left: 15px;
+  display: block;
+  width: 95%;
+}
+p.birthday,
+p.gender {
+  padding: 5px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+  color: #7a6787;
+}
+.DOB-span {
+  display: inline-block;
+  width: 100%;
+}
+.DOB-span select {
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(194, 192, 192);
+  padding-left: 15px;
+  display: inline-block;
+  width: 31%;
+  margin-left: 5px;
+  color: #1c1e21;
+}
+.label-span1 {
+  display: inline-block;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 29%;
+  border-radius: 5px;
+  border: 0.5px solid rgb(194, 192, 192);
+  color: #1c1e21;
+}
+.label-span2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.Term-policy {
+  text-align: left;
+  margin-left: 10px;
+}
+
+ #signup {
+  background-color: #119f16;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  height: 36px;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  font-style: bold;
+  font-size: 20px;
+  font-weight: bolder;
+} 
+a.link-account{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #1877f2;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+
+}
